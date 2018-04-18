@@ -1,6 +1,6 @@
 //
-//  Currency.swift
-//  Currencies
+//  SimpleCurrency.swift
+//  SimpleCurrencies
 //
 //  Created by Jeremy Peltier on 16/04/2018.
 //  Copyright © 2018 Jeremy Peltier. All rights reserved.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Currency: NSObject, NSCoding {
+public class SimpleCurrency: NSObject, NSCoding {
     
     // The display name of the currency based on the device current locale
     public var name: String {
@@ -32,7 +32,7 @@ public class Currency: NSObject, NSCoding {
     // The code number of the currency according ISO-4217
     public var codeNumber: Int? {
         get {
-            guard let bundle = Bundle(identifier: "com.jeremy-peltier.Currencies"), let path = bundle.path(forResource: "CurrenciesCodeNumbers", ofType: "plist"),
+            guard let bundle = Bundle(identifier: "com.jeremy-peltier.SimpleCurrencies"), let path = bundle.path(forResource: "CurrenciesCodeNumbers", ofType: "plist"),
                 let codeNumbers = NSDictionary(contentsOfFile: path) else {
                 return nil
             }

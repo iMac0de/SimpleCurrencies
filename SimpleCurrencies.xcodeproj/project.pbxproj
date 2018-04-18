@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D592CFBE2084A42000F8F7F8 /* Currencies.h in Headers */ = {isa = PBXBuildFile; fileRef = D592CFBC2084A42000F8F7F8 /* Currencies.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D592CFC52084A44F00F8F7F8 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592CFC42084A44F00F8F7F8 /* Currency.swift */; };
-		D592CFC72084A5C000F8F7F8 /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592CFC62084A5C000F8F7F8 /* Currencies.swift */; };
+		D592CFBE2084A42000F8F7F8 /* SimpleCurrencies.h in Headers */ = {isa = PBXBuildFile; fileRef = D592CFBC2084A42000F8F7F8 /* SimpleCurrencies.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D592CFC52084A44F00F8F7F8 /* SimpleCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592CFC42084A44F00F8F7F8 /* SimpleCurrency.swift */; };
+		D592CFC72084A5C000F8F7F8 /* SimpleCurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592CFC62084A5C000F8F7F8 /* SimpleCurrencies.swift */; };
 		D592CFCE2084CA3600F8F7F8 /* CurrenciesCodeNumbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = D592CFCD2084CA3600F8F7F8 /* CurrenciesCodeNumbers.plist */; };
-		D592CFDE2084E17500F8F7F8 /* CurrenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592CFDD2084E17500F8F7F8 /* CurrenciesTests.swift */; };
-		D592CFE02084E17500F8F7F8 /* Currencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D592CFB92084A42000F8F7F8 /* Currencies.framework */; };
+		D592CFDE2084E17500F8F7F8 /* SimpleCurrenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592CFDD2084E17500F8F7F8 /* SimpleCurrenciesTests.swift */; };
+		D592CFE02084E17500F8F7F8 /* SimpleCurrencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D592CFB92084A42000F8F7F8 /* SimpleCurrencies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D592CFB92084A42000F8F7F8 /* Currencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Currencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D592CFBC2084A42000F8F7F8 /* Currencies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Currencies.h; sourceTree = "<group>"; };
+		D592CFB92084A42000F8F7F8 /* SimpleCurrencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleCurrencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D592CFBC2084A42000F8F7F8 /* SimpleCurrencies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleCurrencies.h; sourceTree = "<group>"; };
 		D592CFBD2084A42000F8F7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D592CFC42084A44F00F8F7F8 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
-		D592CFC62084A5C000F8F7F8 /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
+		D592CFC42084A44F00F8F7F8 /* SimpleCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCurrency.swift; sourceTree = "<group>"; };
+		D592CFC62084A5C000F8F7F8 /* SimpleCurrencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCurrencies.swift; sourceTree = "<group>"; };
 		D592CFCD2084CA3600F8F7F8 /* CurrenciesCodeNumbers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CurrenciesCodeNumbers.plist; sourceTree = "<group>"; };
-		D592CFDB2084E17500F8F7F8 /* CurrenciesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrenciesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D592CFDD2084E17500F8F7F8 /* CurrenciesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesTests.swift; sourceTree = "<group>"; };
+		D592CFDB2084E17500F8F7F8 /* SimpleCurrenciesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCurrenciesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D592CFDD2084E17500F8F7F8 /* SimpleCurrenciesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCurrenciesTests.swift; sourceTree = "<group>"; };
 		D592CFDF2084E17500F8F7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D592CFE02084E17500F8F7F8 /* Currencies.framework in Frameworks */,
+				D592CFE02084E17500F8F7F8 /* SimpleCurrencies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +59,8 @@
 		D592CFAF2084A41F00F8F7F8 = {
 			isa = PBXGroup;
 			children = (
-				D592CFBB2084A42000F8F7F8 /* Currencies */,
-				D592CFDC2084E17500F8F7F8 /* CurrenciesTests */,
+				D592CFBB2084A42000F8F7F8 /* SimpleCurrencies */,
+				D592CFDC2084E17500F8F7F8 /* SimpleCurrenciesTests */,
 				D592CFBA2084A42000F8F7F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +68,13 @@
 		D592CFBA2084A42000F8F7F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D592CFB92084A42000F8F7F8 /* Currencies.framework */,
-				D592CFDB2084E17500F8F7F8 /* CurrenciesTests.xctest */,
+				D592CFB92084A42000F8F7F8 /* SimpleCurrencies.framework */,
+				D592CFDB2084E17500F8F7F8 /* SimpleCurrenciesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D592CFBB2084A42000F8F7F8 /* Currencies */ = {
+		D592CFBB2084A42000F8F7F8 /* SimpleCurrencies */ = {
 			isa = PBXGroup;
 			children = (
 				D592CFD12084CD8100F8F7F8 /* Headers */,
@@ -82,7 +82,7 @@
 				D592CFCF2084CD7100F8F7F8 /* Resources */,
 				D592CFBD2084A42000F8F7F8 /* Info.plist */,
 			);
-			path = Currencies;
+			path = SimpleCurrencies;
 			sourceTree = "<group>";
 		};
 		D592CFCF2084CD7100F8F7F8 /* Resources */ = {
@@ -96,8 +96,8 @@
 		D592CFD02084CD7800F8F7F8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D592CFC42084A44F00F8F7F8 /* Currency.swift */,
-				D592CFC62084A5C000F8F7F8 /* Currencies.swift */,
+				D592CFC42084A44F00F8F7F8 /* SimpleCurrency.swift */,
+				D592CFC62084A5C000F8F7F8 /* SimpleCurrencies.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,18 +105,18 @@
 		D592CFD12084CD8100F8F7F8 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				D592CFBC2084A42000F8F7F8 /* Currencies.h */,
+				D592CFBC2084A42000F8F7F8 /* SimpleCurrencies.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
 		};
-		D592CFDC2084E17500F8F7F8 /* CurrenciesTests */ = {
+		D592CFDC2084E17500F8F7F8 /* SimpleCurrenciesTests */ = {
 			isa = PBXGroup;
 			children = (
-				D592CFDD2084E17500F8F7F8 /* CurrenciesTests.swift */,
+				D592CFDD2084E17500F8F7F8 /* SimpleCurrenciesTests.swift */,
 				D592CFDF2084E17500F8F7F8 /* Info.plist */,
 			);
-			path = CurrenciesTests;
+			path = SimpleCurrenciesTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,16 +126,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D592CFBE2084A42000F8F7F8 /* Currencies.h in Headers */,
+				D592CFBE2084A42000F8F7F8 /* SimpleCurrencies.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D592CFB82084A42000F8F7F8 /* Currencies */ = {
+		D592CFB82084A42000F8F7F8 /* SimpleCurrencies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D592CFC12084A42000F8F7F8 /* Build configuration list for PBXNativeTarget "Currencies" */;
+			buildConfigurationList = D592CFC12084A42000F8F7F8 /* Build configuration list for PBXNativeTarget "SimpleCurrencies" */;
 			buildPhases = (
 				D592CFB42084A42000F8F7F8 /* Sources */,
 				D592CFB52084A42000F8F7F8 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = Currencies;
+			name = SimpleCurrencies;
 			productName = Currencies;
-			productReference = D592CFB92084A42000F8F7F8 /* Currencies.framework */;
+			productReference = D592CFB92084A42000F8F7F8 /* SimpleCurrencies.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D592CFDA2084E17500F8F7F8 /* CurrenciesTests */ = {
+		D592CFDA2084E17500F8F7F8 /* SimpleCurrenciesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D592CFE32084E17500F8F7F8 /* Build configuration list for PBXNativeTarget "CurrenciesTests" */;
+			buildConfigurationList = D592CFE32084E17500F8F7F8 /* Build configuration list for PBXNativeTarget "SimpleCurrenciesTests" */;
 			buildPhases = (
 				D592CFD72084E17500F8F7F8 /* Sources */,
 				D592CFD82084E17500F8F7F8 /* Frameworks */,
@@ -164,9 +164,9 @@
 			dependencies = (
 				D592CFE22084E17500F8F7F8 /* PBXTargetDependency */,
 			);
-			name = CurrenciesTests;
+			name = SimpleCurrenciesTests;
 			productName = CurrenciesTests;
-			productReference = D592CFDB2084E17500F8F7F8 /* CurrenciesTests.xctest */;
+			productReference = D592CFDB2084E17500F8F7F8 /* SimpleCurrenciesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D592CFB32084A41F00F8F7F8 /* Build configuration list for PBXProject "Currencies" */;
+			buildConfigurationList = D592CFB32084A41F00F8F7F8 /* Build configuration list for PBXProject "SimpleCurrencies" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -200,8 +200,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D592CFB82084A42000F8F7F8 /* Currencies */,
-				D592CFDA2084E17500F8F7F8 /* CurrenciesTests */,
+				D592CFB82084A42000F8F7F8 /* SimpleCurrencies */,
+				D592CFDA2084E17500F8F7F8 /* SimpleCurrenciesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,8 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D592CFC72084A5C000F8F7F8 /* Currencies.swift in Sources */,
-				D592CFC52084A44F00F8F7F8 /* Currency.swift in Sources */,
+				D592CFC72084A5C000F8F7F8 /* SimpleCurrencies.swift in Sources */,
+				D592CFC52084A44F00F8F7F8 /* SimpleCurrency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D592CFDE2084E17500F8F7F8 /* CurrenciesTests.swift in Sources */,
+				D592CFDE2084E17500F8F7F8 /* SimpleCurrenciesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +247,7 @@
 /* Begin PBXTargetDependency section */
 		D592CFE22084E17500F8F7F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D592CFB82084A42000F8F7F8 /* Currencies */;
+			target = D592CFB82084A42000F8F7F8 /* SimpleCurrencies */;
 			targetProxy = D592CFE12084E17500F8F7F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -384,7 +384,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Currencies/Info.plist;
+				INFOPLIST_FILE = SimpleCurrencies/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,7 +392,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremy-peltier.Currencies";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremy-peltier.SimpleCurrencies";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -412,7 +412,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Currencies/Info.plist;
+				INFOPLIST_FILE = SimpleCurrencies/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -420,7 +420,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremy-peltier.Currencies";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremy-peltier.SimpleCurrencies";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -433,13 +433,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37RJHPCLXL;
-				INFOPLIST_FILE = CurrenciesTests/Info.plist;
+				INFOPLIST_FILE = SimpleCurrenciesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremy-peltier.CurrenciesTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremy-peltier.SimpleCurrenciesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,13 +451,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37RJHPCLXL;
-				INFOPLIST_FILE = CurrenciesTests/Info.plist;
+				INFOPLIST_FILE = SimpleCurrenciesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremy-peltier.CurrenciesTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremy-peltier.SimpleCurrenciesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D592CFB32084A41F00F8F7F8 /* Build configuration list for PBXProject "Currencies" */ = {
+		D592CFB32084A41F00F8F7F8 /* Build configuration list for PBXProject "SimpleCurrencies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D592CFBF2084A42000F8F7F8 /* Debug */,
@@ -476,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D592CFC12084A42000F8F7F8 /* Build configuration list for PBXNativeTarget "Currencies" */ = {
+		D592CFC12084A42000F8F7F8 /* Build configuration list for PBXNativeTarget "SimpleCurrencies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D592CFC22084A42000F8F7F8 /* Debug */,
@@ -485,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D592CFE32084E17500F8F7F8 /* Build configuration list for PBXNativeTarget "CurrenciesTests" */ = {
+		D592CFE32084E17500F8F7F8 /* Build configuration list for PBXNativeTarget "SimpleCurrenciesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D592CFE42084E17500F8F7F8 /* Debug */,

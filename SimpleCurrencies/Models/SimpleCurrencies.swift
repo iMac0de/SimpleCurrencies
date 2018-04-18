@@ -1,6 +1,6 @@
 //
-//  Currencies.swift
-//  Currencies
+//  SimpleCurrencies.swift
+//  SimpleCurrencies
 //
 //  Created by Jeremy Peltier on 16/04/2018.
 //  Copyright © 2018 Jeremy Peltier. All rights reserved.
@@ -8,36 +8,36 @@
 
 import Foundation
 
-public class Currencies {
+public class SimpleCurrencies {
     
-    public class var all: [Currency] {
+    public class var all: [SimpleCurrency] {
         get {
-            var currencies: [Currency] = []
+            var currencies: [SimpleCurrency] = []
             
             for code in Locale.isoCurrencyCodes {
-                currencies.append(Currency(code: code))
+                currencies.append(SimpleCurrency(code: code))
             }
             
             return currencies
         }
     }
     
-    public class var current: Currency? {
+    public class var current: SimpleCurrency? {
         get {
             if let code = Locale.current.currencyCode {
-                return Currency(code: code)
+                return SimpleCurrency(code: code)
             }
             return nil
         }
     }
     
-    public class func currency(for code: String) -> Currency? {
-        let index = Currencies.all.index { (currency) -> Bool in
+    public class func currency(for code: String) -> SimpleCurrency? {
+        let index = SimpleCurrencies.all.index { (currency) -> Bool in
             return currency.code == code
         }
         
         if index != nil {
-            return Currencies.all[index!]
+            return SimpleCurrencies.all[index!]
         }
         
         return nil
@@ -52,7 +52,7 @@ public class Currencies {
         return formatter.string(from: value)
     }
     
-    public class func format(currency: Currency, value: NSNumber) -> String? {
+    public class func format(currency: SimpleCurrency, value: NSNumber) -> String? {
         let formatter = NumberFormatter()
         formatter.locale = Locale.current
         formatter.currencyCode = currency.code

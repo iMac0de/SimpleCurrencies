@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Currencies.xcodeproj">
+      location = "self:/Users/jpeltier/Documents/Projects/Perso/Currencies/SimpleCurrencies.xcodeproj">
    </FileRef>
 </Workspace>

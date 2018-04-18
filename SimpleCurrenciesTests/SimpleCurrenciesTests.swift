@@ -1,15 +1,15 @@
 //
-//  CurrenciesTests.swift
-//  CurrenciesTests
+//  SimpleCurrenciesTests.swift
+//  SimpleCurrenciesTests
 //
 //  Created by Jeremy Peltier on 16/04/2018.
 //  Copyright © 2018 Jeremy Peltier. All rights reserved.
 //
 
 import XCTest
-import Currencies
+import SimpleCurrencies
 
-class CurrenciesTests: XCTestCase {
+class SimpleCurrenciesTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -22,7 +22,7 @@ class CurrenciesTests: XCTestCase {
     }
     
     func testEURCurrency() {
-        let currency = Currencies.currency(for: "EUR")
+        let currency = SimpleCurrencies.currency(for: "EUR")
         
         XCTAssertEqual(currency?.code, "EUR")
         XCTAssertEqual(currency?.name, "Euro")
@@ -31,11 +31,11 @@ class CurrenciesTests: XCTestCase {
     }
     
     func testEURCurrencyString() {
-        XCTAssertEqual(Currencies.format(for: "EUR", value: 10), "€10.00")
+        XCTAssertEqual(SimpleCurrencies.format(for: "EUR", value: 10), "€10.00")
     }
     
     func testUSDCurrencyString() {
-        XCTAssertEqual(Currencies.format(for: "USD", value: 10), "$10.00")
+        XCTAssertEqual(SimpleCurrencies.format(for: "USD", value: 10), "$10.00")
     }
     
 }
