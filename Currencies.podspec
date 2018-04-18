@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Currencies"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Currencies is a Swift framework that allows the iOS developers to use the currencies in a simplier way "
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources = "Currencies/Resources"
+  s.resources = "Currencies/Resources/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
